@@ -90,7 +90,7 @@ a {
 /* Destaques */
 
 #destaques {
-    height: 120vh;
+    height: 200vh;
     width: 100%;
 }
 
@@ -130,6 +130,11 @@ a {
     font-size: small;
 }
 
+#destaques .cards {
+    padding: 0 10rem;
+}
+
+
 #destaques div ul li a {
     color: rgb(0, 0, 0, 0.7);
     text-decoration: none;
@@ -141,4 +146,26 @@ a {
 #destaques div ul li i {
     color: rgb(0, 0, 0, 0.4);
     font-size: x-small;
+}
+
+.buttom-destaques {
+    padding: 2px 15px;
+     border: 0.5px solid #000;
+    border-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10%;
+    background-color: transparent;
+}
+
+.buttom-destaques i {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.text-destaques .card-destaques span::after {
+    content: " •";
+    margin-left: 8px;
+}
+
+.text-destaques .card-destaques span:last-child::after {
+    content: "";
 }
