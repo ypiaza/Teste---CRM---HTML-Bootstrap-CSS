@@ -264,9 +264,8 @@ a {
 /* About */
 
 #about {
-    height: 85vh;
-    width: 100%;
-    padding: 0 10rem;
+    height: 90vh;
+    padding: 0 15rem;
     background-color: #FAF8F6;
 }
 
